@@ -36,10 +36,13 @@ logs/
 # Docker
 .dockerignore
 
-# Build artifacts
+# Build artifacts (binaries only)
 main
 migrator
 performance-test
+/cmd/api/main
+/cmd/migrator/migrator
+/cmd/performance-test/performance-test
 
 # Temporary files
 tmp/
